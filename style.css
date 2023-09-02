@@ -1,0 +1,84 @@
+#body{
+    background-color: #24353F;
+}
+.login{
+    background-color: #24353F;
+color:#fff;
+box-shadow: 20px 20px 20px 20px #24353F;
+border: 3px solid #889eab;
+padding: 50px;
+}
+
+
+.login h1{
+    color:#1F8398;
+}
+.form-control{
+    background-color: #24353F;
+    color: #495057;
+    border: 1px solid #ced4da;
+}
+
+input , textarea{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+#errorName,#errorEmail,#theResult,#errorpass{
+    color:rgb(249, 53, 53)
+}
+/* log in */
+
+.mylogo{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3px 3px 3px 3px black;
+    padding: 15px 20px;
+}
+
+.mylogo a{
+    Font-family: "Titillium Web", sans-serif;
+
+    Font-size: 20px;
+    
+    Font-weight: 400;
+    
+    Line-height: 30px;
+    
+     color: rgb(255, 255, 255);
+}
+
+.mylogo button{
+    background-color: #24353F;
+    color: rgb(170, 148, 148);
+border-color: yellow;
+padding:5px 10px;
+transition: 1s;
+}
+.mylogo button:hover{
+    background-color: rgb(223, 223, 49);
+    color: rgb(255, 249, 249);
+
+
+}
+
+#message{
+    width:50%;
+    
+    margin: auto;
+    text-align: center;
+    border:12px solid #000000;
+
+}
+#h1{
+}
+.center{
+    display: flex;
+    height:70vh;
+    justify-content: center;
+    align-items: center;
+}
